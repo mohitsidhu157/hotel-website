@@ -206,6 +206,29 @@ p{
 	border-radius: 5px;
 	opacity: 0.9
 }
+
+/* Contact form */
+.form-group{
+	margin-bottom: 20px
+}
+.form-group label{
+	display: block;
+	margin-bottom: 5px
+}
+.form-group input,
+.form-group textarea{
+	width : 100%;
+	padding : 10px;
+	border : 1px solid #ddd;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+	outline: none;
+	border : 1px solid #f7c08a;
+}
+.form-group textarea{
+	height : 100px;
+}
 /* Footer */
 #main-footer{
 	text-align: center;
